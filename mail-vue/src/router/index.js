@@ -42,11 +42,11 @@ const routes = [
                 }
             },
             {
-                path: '/starred',
+                path: '/go',
                 name: 'star',
                 component: () => import('@/views/star/index.vue'),
                 meta: {
-                    title: 'starred',
+                    title: 'go',
                     name: 'star',
                     menu: true
                 }
